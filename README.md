@@ -1,2 +1,2 @@
 # OOPS-lab
-mca ssem 2 object oriented prograaming
+mca sem 2 object oriented prograaming
