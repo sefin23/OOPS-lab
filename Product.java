@@ -39,27 +39,31 @@ System.out.println("code"+p1.pcode);
     System.out.println("name"+p3.pname);
     System.out.println("price"+p3.price);
    
-    if (p1.price>p2.price)
+    if (p1.price<p2.price)
     {
-    if(p1.price>p3.price)
-    {
-    System.out.println("first product product have high price ");
-    }
+    	if(p1.price<p3.price)
+    	{
+    		System.out.println(" first product product have lowest price ");
+    	}
+    	else if(p3.price<p2.price)
+    	{
+    		System.out.println("third product product have lowest  price");
+   	}
+    	else
+    	{
+    	System.out.println("third product product have lowest price");
+   	}
+   }
     else
     {
-    System.out.println("third product product have high price");
-    }
-    }
-    else
-    {
-    if(p2.price>p3.price)
-    {
-    System.out.println("second product have high price");
-    }
-    else
-    {
-    System.out.println("third product product have high price");
-    }
+    	if(p2.price<p3.price)
+    	{
+    		System.out.println("second product product have lowest price");
+    	}
+    	else
+    	{
+    		System.out.println("third product product have lowest price");
+    	}
     }
     }
     }
